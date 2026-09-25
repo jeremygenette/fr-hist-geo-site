@@ -5,7 +5,7 @@
 #
 # Usage:
 #   source("publish_week.R")
-#   publish_week("~/Documents/.../francais-moderne-site")
+#   publish_week("~//Users/jeremy-ua/Documents/Work/Teaching/1_KUL/2026-2027/francais-moderne-site")
 
 publish_week <- function(deploy_repo, branch = "main") {
   if (!requireNamespace("gert", quietly = TRUE)) {
